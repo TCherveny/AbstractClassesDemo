@@ -6,7 +6,7 @@ namespace ConsoleUI
 {
    public abstract class Vehicle
     {
-        public string Year { get; set; } = "No Input Recieved";
+        public int Year { get; set; } = 0000;
         public string Make { get; set; } = "No Input Recieved";
         public string Model { get; set; } = "No Input Recieved";
 
